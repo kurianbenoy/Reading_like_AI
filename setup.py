@@ -25,7 +25,7 @@ setup(
     ],
     packages=["nosai"],
     include_package_data=True,
-    install_requires=["num2words", "html2text"],
+    install_requires=["num2words"],
     entry_points={
         "console_scripts": [
             "realpython=nosai.__main__:main",
