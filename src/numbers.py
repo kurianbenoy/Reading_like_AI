@@ -21,7 +21,7 @@ def convert_py(N):
         elif top == 12:
             result.append("TwoTeen")
 
-        elif 13<=top<20:
+        else:
             result.append(num2words(top))
 
 
