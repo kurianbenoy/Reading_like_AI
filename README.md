@@ -20,6 +20,7 @@ Build based actually is one of the Rules of Machine Learning, ie Rule #7: Turn h
 ## Usage
 
 ```
-from nosai.numbers import spell
-spell(1111)
+>> from nosai.numbers import spell
+>> spell(1111)
+'OneTeen Onety one'
 ```
