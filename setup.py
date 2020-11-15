@@ -28,7 +28,7 @@ setup(
     install_requires=["num2words"],
     entry_points={
         "console_scripts": [
-            "realpython=nosai.__main__:main",
+            "numbersai=nosai.__main__:main",
         ]
     },
 )
