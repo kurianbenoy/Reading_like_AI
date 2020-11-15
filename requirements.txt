@@ -1,1 +1,2 @@
-num2words
+num2words==0.5.10
+docopt==0.6.2
