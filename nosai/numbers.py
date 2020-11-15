@@ -23,6 +23,6 @@ def spell(N):
             result.append(num2words(boty))
 
         else:
-            result.append(num2words(bot))
+            result.append(num2words(N))
 
         return ' '.join(result)
