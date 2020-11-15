@@ -1,6 +1,15 @@
+"""
+1999- Nineteen Ninty Nine
+1888 - Eighteen Eighty Eight
+1777 - Seventeen Seventy Seven
+1111 - Oneeen Onety One
+
+Not fully huristics
+"""
+
 from num2words import num2words
 
-def spell(N):
+def convert_py(N):
     if N // 1_0000 ==0:
         N = divmod(N, 100)
         top, bot = N[0], N[1]
@@ -12,7 +21,7 @@ def spell(N):
         elif top == 12:
             result.append("TwoTeen")
 
-        elif 13<=top<20:
+        else:
             result.append(num2words(top))
 
 
@@ -23,6 +32,7 @@ def spell(N):
             result.append(num2words(boty))
 
         else:
-            result.append(num2words(N))
+            result.append(num2words(bot))
 
         return ' '.join(result)
+
