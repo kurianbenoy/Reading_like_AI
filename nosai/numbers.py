@@ -9,7 +9,7 @@ Not fully huristics
 
 from num2words import num2words
 
-def convert_py(N):
+def spell(N):
     if N // 1_0000 ==0:
         N = divmod(N, 100)
         top, bot = N[0], N[1]
